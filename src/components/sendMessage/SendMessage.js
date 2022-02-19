@@ -16,7 +16,7 @@ function SendMessage () {
     }
     return <div className={s.wide}>
         <form type="submit" onSubmit={sendMsg} className={s.form}>
-        <input type='text' placeholder="Введите сообщение" onChange={onChangeInputHandler} className={s.input}/>
+        <input type='text' placeholder="Введите сообщение" onChange={onChangeInputHandler} className={s.input} value={message}/>
         <button className={s.btn}><img src={icon} alt='Отправить'/></button>
         </form>
     </div>
