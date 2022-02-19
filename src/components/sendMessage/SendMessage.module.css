@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    position: relative;
+}
+.input {
+    width: 99%;
+    padding: 26px 0 26px 16px;
+    margin-bottom: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+}
+.wide {
+    overflow: hidden;
+}
+.btn {
+    position: absolute;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    z-index: 1;
+    right: 40px;
+    bottom: 35px;
+  }
+  
